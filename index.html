@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	
+	<!-- meta discription の記述 -->
+	<!-- SEO対策 -->
+	<!-- SNS対策 -->
+
+	<title>
+		EBiNA for Girls｜女の子のための海老名散策
+	</title>
+
+	<!-- スタイルシート -->
+	<link rel="stylesheet" href="reset.min.css" media="all">
+	<link rel="stylesheet" href="style.css" media="all">
+
+	<!-- JQery -->
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+
+	<!-- スライダー -->
+	<link rel="stylesheet" href="slick/slick.css" media="all">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+
+	<!-- レスポンシブ -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- 	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.title').each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script> -->
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.content-block-2' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.content-block-1' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.content-block-2-1' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.content-block-3' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.content-block-4' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+	<script type="text/javascript">
+
+		$(function(){
+		    $(window).scroll(function (){
+		        $('.min' ).each(function(){
+		            var targetElement = $(this).offset().top;
+		            var scroll = $(window).scrollTop();
+		            var windowHeight = $(window).height();
+		            if (scroll > targetElement - windowHeight + 200){
+		                $(this).css('opacity','1');
+		                $(this).css('transform','translateY(0)');
+		            }
+		        });
+		    });
+		});
+
+	</script>
+
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+
+
+</head>
+
+<body>
+
+	<!-- ヘッダー -->
+	<div class="header">
+			<div class="header-block">
+				
+				<a href="#sec1">
+				<p>
+					海老名図書館	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec2">
+				<p>
+					えっちゃんのえび〜にゃ焼き	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec2-1">
+				<p>
+					Publie	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec3">
+				<p>
+					かかしまつり	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec4">
+				<p>
+					のみ処ビナ横丁	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec5">
+				<p>
+					アクセス	
+				</p>
+				</a>
+			</div>
+
+			<div class="header-block">
+				<a href="#sec6">
+				<p>
+					もっと知る	
+				</p>
+				</a>
+			</div>	
+	</div>
+
+	<div class="header-line">
+
+		<img src="images/header-line.png">	
+
+	</div>
+
+
+	<!-- タイトル -->
+	<div class="title">
+		<img src="images/title.png">
+	</div>
+
+
+
+	<!-- ディスクリプション-->
+	<div class="discription">
+
+		<p>
+			海老名での過ごし方を提案します。
+		</p>
+		
+	</div>
+
+<div class="main">
+
+	<!-- AM10:00の画像 -->
+	<div class="am10">
+		<img src="images/am10.png">
+	</div>
+
+	<div class="background">
+
+		<!-- コンテンツ -->
+		<div class="content">
+
+			<!-- 海老名図書館 -->
+			<div id="sec1">
+
+			<div class="content-block-1">
+				<div class="p-1">
+
+				<!-- 海老名図書館ロゴ	 -->
+				<img src="images/title1.png">
+				
+				<p>
+					
+					<br>落ち着いた空間で
+					<br>本を楽しむことができます。
+					<br>館内にはスターバックスがあり、
+					<br>Wi-fiも完備！
+					<br>ゆったり作業するのにもおすすめ。
+
+				</p>
+				</div> 
+				
+
+				<!-- 海老名図書館の写真　-->
+				<div class="img-1">
+					<img src="images/ebina_library002.jpg">
+				</div>
+			</div>
+			</div>
+
+
+			<!-- えび〜にゃ焼き -->
+
+			<div id="sec2">
+			<div class="content-block-2">
+
+				<div class="img-2">
+					<!-- エビ〜にゃ焼きの写真 -->
+					<img src="images/ebinya-yaki.png">
+				</div>
+
+				<div class="p-2">
+					<!-- title -->
+					<img src="images/title2.png">
+
+					<p>
+						<br>このキッチンカーに出会えたらハッピー！
+						<br>いろんな味を楽しめます。
+						<br>今日はどこで販売しているのか
+						<br>チェックしてみるのも
+						<br>いいかもしれません。
+					</p>
+
+					<div class="button">
+						
+						<a href="https://ameblo.jp/chatoran-cat/">▶︎詳しくはこちら</a>
+
+					</div>
+
+				</div>
+
+				
+			</div>
+			</div>
+
+			<!-- ｐｍ12：００のロゴ -->
+
+			<div class="pm12">
+				<img src="images/pm12.png">
+			</div>
+
+			<!-- Publie -->
+			<div id="sec2-1">
+			<div class="content-block-2-1">
+			
+				<div class="p-2-1">
+					<img src="images/title3.png">
+					<p>
+						<br>2015年にオープンした
+						<br>綺麗で落ち着くお店。
+						<br>店内はガラス張りでひらけているので
+						<br>ランチにぴったり♪
+					</p>
+				
+					<div class="button">
+						
+						<a href="https://ricohfuturehouse.jp/1f-cafe/">▶︎詳しくはこちら</a>
+
+					</div>
+				</div>
+
+				<div class="img2-1">
+					<img src="images/Publie画像.png">
+				</div>
+				</div>
+
+
+			</div>
+
+			<!-- かかしまつり -->
+
+			<div id="sec3">
+			<div class="content-block-3">
+				
+				<div class="img-3-1">
+
+					<!-- かかし祭り風景写真 -->
+					<img src="images/かかし祭り写真.png">
+
+				</div>
+				<div class="p-3">
+
+					<!-- かかしまつりロゴ -->
+					<img src="images/title4.png">	
+
+					<p>
+					<br>年に一回行われるおまつり
+					<br>海老名市の小学生が作ったかかしが
+					<br>ずらっとならんでいます。
+					<br>流行のものからアイデアかかしまで
+					<br>心地よい田んぼの中で楽しめます。
+					</p>
+				</div>
+
+			</div>
+			</div>
+
+
+			<!-- pm7:00の画像 -->
+			<div class="pm7">
+				<img src="images/pm7.png">
+			</div>
+
+
+			<!-- ビナ横丁 -->
+			<div id="sec4">
+			<div class="content-block-4">
+
+				<div class="p-4">
+
+					<img src="images/title5.png">
+
+					<p>
+					<br>呑み処ビナ横丁
+					<br>海老名駅から徒歩1分の
+					<br>ところにあるこの通りには
+					<br>小さくも温かいお店が並んでいます。
+					</p>
+
+				</div>
+
+			</div>
+			</div>
+		</div>
+
+
+</div>
+
+	<!-- アクセス -->
+
+	<div id="sec5">
+	<div class="access">
+
+		<div class="Access">
+			<img src="images/Access.png">
+		</div>
+
+		<div class="access-line">
+			<img src="images/header-line.png">
+		</div>
+
+		<div class="access-img">
+
+			<!-- shinjuku画像 -->
+			<div class="station">
+				<img src="images/Shinjuku_Station.png">
+			</div>
+
+			<!-- 44min -->
+			<div class="min">
+				<img src="images/44 min.png">
+			</div>
+
+			<!-- ebina -->
+			<div class="station">	
+				<img src="images/Ebina_Station.png">
+			</div>
+
+			<!-- 54min -->
+			<div class="min">
+				<img src="images/54 min.png">
+			</div>
+
+			<!-- shibuya -->
+			<div class="station">
+				<img src="images/Shibuya_Station.png">
+			</div>
+		</div>	
+	</div>
+</div>
+
+</div>
+
+
+	<!-- もっと知る -->
+		<div id="sec6">
+		<div class="more">
+
+				<div class="More">
+					<img src="images/More.png">
+				</div>
+
+			<div class="more-images">
+
+				<div class="icon">
+
+					<div class="icon-btn">
+						<a href="https://www.instagram.com/ebina_official/?hl=ja"><img src="images/icons8-instagram-50.png"></a>
+					</div>
+
+					<div class="icon-btn">
+						<a href="https://www.facebook.com/%E6%B5%B7%E8%80%81%E5%90%8D%E5%B8%82%E3%82%B7%E3%83%86%E3%82%A3%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%AA%B2-425257770866942/"><img src="images/icons8-フェイスブック-50.png"></a>
+					</div>
+					<div class="icon-btn">
+						<a href="https://www.city.ebina.kanagawa.jp/"><img src="images/icons8-ホーム-50.png"></a>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+</div>
+
+	<!-- 海老名の写真（アニメーション） -->
+
+
+
+</body>
