@@ -1,0 +1,887 @@
+@charset UTF-8;
+
+
+/* ================================================ */
+/*
+backgroundからやりなおし
+backgroundlineがうまくついてこない。
+ほんとはぜんぶ１００％で設定できれば楽
+/
+/* ================================================ */
+
+
+.main{
+
+	padding-top: 100px; 
+
+	width: 100%;
+	margin: 0 auto;
+}
+
+.background{
+
+	background-image: url(images/back-line.png);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	width: 1000px;
+	height: 2500px;
+	margin: 0 auto;
+
+}
+/*================================================
+==================================================*/
+/*EBina for girls*/
+
+.title{
+
+/*  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;*/
+
+}
+
+/*================================================
+==================================================*/
+
+/*時間*/
+
+.am10{
+
+	padding: 0 0 10px 0;
+
+}
+
+.pm12{
+
+	padding: 100px 0 0px 0 ;
+
+
+}
+
+.pm7{
+
+	padding: 100px 0 0 0;
+
+
+}
+
+/*================================================
+==================================================*/
+
+.discription p{
+
+	text-align: center;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+
+}
+
+
+/*================================================
+==================================================*/
+
+.header{
+
+	width: 100%;
+	/*text-align: center;*/
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.header-block{
+
+	display: block;
+
+}
+
+.header p{
+
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+	font-size: 15px;
+
+	margin: 10px 20px;
+
+}
+
+.header-line{
+
+	width: 100% ;
+	margin: 0 auto;
+
+}
+.header-line img{
+
+	text-align: center;
+	width: 100%;
+}
+
+/*================================================
+==================================================*/
+
+.title{
+
+	width: 286px;
+	height: 148px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+/*================================================
+==================================================*/
+
+.content{
+
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+.content p{
+
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+	font-size: 14px;
+}
+
+/*================================================
+==================================================*/
+
+/*海老名図書館*/
+.content-block-1 {
+
+	margin: 30px 0px 0px 50px;  
+	height: 350px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+
+}
+.content-block-1 .p-1 {
+
+	width: 321px;
+	height: 321px;
+
+	text-align: center;
+	font-family: YuGothic;
+	margin-right: 50px; 
+	background-image: url(images/yellow.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+/*	background-position: center;*/
+
+}
+
+.content-block-1 .p-1 p{
+
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+/*海老名図書館ロゴ*/
+.content-block-1 .p-1 img{
+
+	width: 200px;
+	height: 30px;
+	margin-top: 50px;
+	/*margin-bottom: 50px;*/
+
+}
+
+.content-block-1 .img-1 img{
+
+	width: 400px;
+	height: 300px;
+}
+
+
+/*================================================
+==================================================*/
+
+
+/*えび〜にゃ焼き*/
+.content-block-2  {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	height: 350px;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+.content-block-2 .p-2{
+
+	width: 321px;
+	height: 321px;
+	text-align: center;
+	background-image: url(images/blue.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+
+}
+
+
+
+
+.content-block-2 .p-2 img{
+
+	width: 200px;
+	height: 60px;
+	margin-top: 50px;
+
+}
+.content-block-2 .p-2 p{
+
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.content-block-2 .img-2 img{
+
+	width: 420px;
+	height: 300px;
+
+}
+
+.content-block-2 .p-2 .button{
+
+	margin: 0 auto;
+
+	background-image: url(images/black.png);
+	width: 150px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 10px;
+
+}
+
+.content-block-2 .p-2 .button a{
+
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+
+/*================================================
+==================================================*/
+
+/*Publie*/
+
+.content-block-2-1 {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	height: 350px;
+	margin: 50px 0 0 0; 
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+.content-block-2-1 .p-2-1{
+
+	width: 321px;
+	height: 321px;
+	text-align: center;
+	background-image: url(images/green.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+
+}
+
+.content-block-2-1 .p-2-1 img{
+
+	width: 120px;
+	height: 30px;
+	margin-top: 50px;
+
+}
+
+.content-block-2-1 .p-2-1 p{
+
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.content-block-2-1 .button{
+
+	margin: 0 auto;
+
+	background-image: url(images/black.png);
+	width: 150px;
+	height: 20px;
+	margin-top: 10px;
+	padding: 10px;
+
+}
+
+.content-block-2-1 .p-2-1 .button a{
+
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+/*================================================
+==================================================*/
+
+/*かかしまつり*/
+.content-block-3  {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	height: 400px;
+	margin: 170px 0 0 0;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+/*かかしまつり写真*/
+.content-block-3 .img-3-1 img{
+
+	width: 577px;
+	height: 303px;
+
+}
+
+/*かかしまつり文章*/
+.content-block-3 .p-3 {
+
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	background-image: url(images/back-kakashi.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+}
+
+
+/*かかしまつりロゴ*/
+.content-block-3 .p-3 img{
+
+	text-align: center;
+
+	margin-top: 80px;
+	width: 200px;
+	height: 30px;
+}
+/*かかしまつり文章*/
+.content-block-3 .p-3 p{
+
+	line-height: 1.5;
+
+}
+
+
+/*================================================
+==================================================*/
+
+
+/*びな横丁*/
+
+.content-block-4 {
+
+	width: 321px;
+	height: 321px;
+	background-image: url(images/blue.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+	margin: 30px 0 300px 110px ;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+.content-block-4 img{
+
+	margin-top: 50px;
+	/*margin: 0 auto;*/
+
+}
+
+.content-block-4 p{
+
+	text-align: center;
+	line-height: 1.5;
+}
+
+
+
+/*================================================
+==================================================*/
+
+/*アクセス*/
+.access {
+
+	/*width: 100%;*/
+	margin: 0 auto;
+	padding: 50px 0 ;
+	background-color: white;
+
+}
+
+.Access{
+
+	text-align: center;
+
+}
+
+.access p{
+
+	font-size: 30px;
+	font-family:  "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+	text-align: center;
+	padding: 30px 0 0 0 ;
+
+}
+
+.access-line img{
+
+	width: 100%;
+
+}
+
+.access-img {
+
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 30px;
+
+	display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.access-img .min{
+
+	padding-top:50px ;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+
+.access-img img{
+
+	display: block;
+	text-align: center;
+
+}
+
+/*================================================
+==================================================*/
+
+/*もっと知る*/
+
+.MORE{
+
+	width: 100%
+}
+
+ 
+
+.More { 
+
+	width: 120px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-top: 10px;
+
+}
+
+
+
+.more {
+
+	background-image: url(images/more-back.png);
+	background-position: center;
+	/*background-size: 1000px;*/
+	/*height: 200px;*/
+	width: 100%;
+
+
+}
+
+
+.more .more-images{
+
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+.more-images p{
+
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding: 10px 50px 30px 50px;
+
+}
+
+.icon{
+
+	display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.icon-btn img{
+
+	display: block;
+	text-align: center;
+}
+
+/*================================================
+Smartphone :  画面の横幅が640pxまで
+=================================================*/
+@media screen and (max-width:640px){
+
+.title{
+
+	text-align: center;
+	padding: 30px;
+	padding-bottom: 0px;
+
+}
+
+.title img{
+
+	width: 150px;
+	height: 80px;
+
+}
+
+.discription{
+
+	font-size: 10px;
+}
+
+
+.background{
+
+	background-image: url(images/back-line2.png);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	width: 100%;
+	height: 3700px;
+	margin: 0 auto;
+
+}
+
+
+/*================================================
+==================================================*/
+
+.am10{
+
+	margin-left: 30px;
+}
+
+.pm12{
+
+	margin-left: 30px;
+}
+
+.pm7{
+
+	margin-left: 30px;
+}
+/*================================================
+==================================================*/
+
+
+.content-block-1 {
+
+	margin: 30px 0px 0px 50px;  
+	height: 650px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: block;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+
+}
+
+.content-block-1 .p-1{
+
+
+	margin-bottom: 50px;
+
+}
+
+.content-block-1 .img-1 img{
+
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+
+}
+
+/*================================================
+==================================================*/
+/*えび〜にゃ焼き*/
+.content-block-2  {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: block;
+
+	height: 650px;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+.content-block-2 .p-2{
+
+	width: 321px;
+	height: 321px;
+	text-align: center;
+	background-image: url(images/blue.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	margin-left: 100px;
+
+}
+
+
+.content-block-2 img{
+
+	width: 150px;
+	height: 50px;
+}
+
+/*================================================
+==================================================*/
+/*Publie*/
+
+.content-block-2-1 {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: block;
+
+	height: 650px;
+	margin: 50px 0 0 0; 
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+.content-block-2-1 .p-2-1{
+
+	width: 321px;
+	height: 321px;
+	text-align: center;
+	background-image: url(images/green.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+
+}
+
+.img2-1 img{
+
+	width: 400px;
+	height: 250px;
+	margin-left: 0px;
+}
+
+/*================================================
+==================================================*/
+/*かかしまつり*/
+
+.content-block-3  {
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: block;
+
+	height: 700px;
+	margin: 170px 0 0 0;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+/*かかしまつり写真*/
+.content-block-3 .img-3-1 img{
+
+	width: 300px;
+	height: 200px;
+
+}
+
+/*かかしまつり文章*/
+.content-block-3 .p-3 {
+
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	background-image: url(images/back-kakashi.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+
+	margin-left: 0px;
+}
+
+
+/*================================================
+==================================================*/
+/*びな横丁*/
+
+.content-block-4 {
+
+	width: 321px;
+	height: 321px;
+	background-image: url(images/blue.png);
+	background-repeat: no-repeat;
+	background-size: 321px;
+	background-position: center;
+	margin: 30px 0 300px 0px ;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+/*================================================
+==================================================*/
+/*Access*/
+
+
+.access-img {
+
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+
+	display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.station img{
+
+	width: 80px;
+	height: 100px;
+
+}
+
+.access-img .min img{
+
+	width: 50px;
+	height: 50px;
+}
+
+.access-img .min{
+
+	padding-top:20px ;
+
+	opacity : 0;
+	transform: translateY(20px);
+	transition: all 1s;
+
+}
+
+/*================================================
+==================================================*/
+/*more*/
+
+.icon-btn img{
+
+	width:  30px;
+	height: 30px;
+}
+
+/*================================================
+Tablet : 画面の横幅が768pxまで
+==================================================*/
+@media screen and (max-width: 768px){
+
+
+
+
+}
+
+
